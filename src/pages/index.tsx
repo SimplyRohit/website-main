@@ -136,17 +136,17 @@ export default function Home() {
           }}
           animate={animationControls}
         >
-          <AnimatedText element="h1" text="Cody" />
-          <AnimatedText element="h1" text="Miller" />
+          <AnimatedText element="h1" text="WasA" />
+          <AnimatedText element="h1" text="rohit" />
 
           <AnimatedText
             element="span"
-            text="Software Engineer"
+            text="Full Stack Developer"
             artificialDelay={twBreakpoint === "sm" ? 0 : 2.5}
           />
           <AnimatedText
             element="span"
-            text="Designer"
+            text="blockchain"
             artificialDelay={twBreakpoint === "sm" ? 0.85 : 3.5}
           />
         </motion.div>

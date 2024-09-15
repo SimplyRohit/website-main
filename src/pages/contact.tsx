@@ -27,7 +27,7 @@ const SOCIAL_ITEMS = [
     platform: "linkedin",
     icon: <LinkedInIcon width={30} height={30} />,
     link: LINKEDIN,
-    handle: "@",
+    handle: "@rohit-64971b260",
   },
   {
     platform: "instagram",

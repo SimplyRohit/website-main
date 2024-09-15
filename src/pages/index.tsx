@@ -106,51 +106,49 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      <motion.div
-        className="w-full h-full p-default-window-sm sm:p-default-window overflow-hidden"
-        animate={backgroundControls}
-      >
-        {["vertical", "horizontal"].map((direction) => (
-          <motion.div
-            key={direction}
-            className={cn(
-              "w-full h-full fixed top-0 left-0 bg-primary-800 z-50 hidden sm:block",
-              {
-                "bg-primary-700": direction === "horizontal",
-              }
-            )}
-            animate={
-              direction === "horizontal"
-                ? horizontalBackgroundControls
-                : verticalBackgroundControls
-            }
-          />
-        ))}
-
+    <motion.div
+      className="w-full h-full p-default-window-sm sm:p-default-window overflow-hidden"
+      animate={backgroundControls}
+    >
+      {["vertical", "horizontal"].map((direction) => (
         <motion.div
-          className="relative title__wrapper md:z-[51]"
-          style={{
-            translateX: "50%",
-            translateY: "50%",
-          }}
-          animate={animationControls}
-        >
-          <AnimatedText element="h1" text="WasA" />
-          <AnimatedText element="h1" text="rohit" />
+          key={direction}
+          className={cn(
+            "w-full h-full fixed top-0 left-0 bg-primary-800 z-50 hidden sm:block",
+            {
+              "bg-primary-700": direction === "horizontal",
+            }
+          )}
+          animate={
+            direction === "horizontal"
+              ? horizontalBackgroundControls
+              : verticalBackgroundControls
+          }
+        />
+      ))}
 
-          <AnimatedText
-            element="span"
-            text="Full Stack Developer"
-            artificialDelay={twBreakpoint === "sm" ? 0 : 2.5}
-          />
-          <AnimatedText
-            element="span"
-            text="blockchain"
-            artificialDelay={twBreakpoint === "sm" ? 0.85 : 3.5}
-          />
-        </motion.div>
+      <motion.div
+        className="relative title__wrapper md:z-[51]"
+        style={{
+          translateX: "50%",
+          translateY: "50%",
+        }}
+        animate={animationControls}
+      >
+        <AnimatedText element="h1" text="Raw" />
+        <AnimatedText element="h1" className="md:ml-[8rem]" text="hit" />
+
+        <AnimatedText
+          element="span"
+          text="Full Stack Developer"
+          artificialDelay={twBreakpoint === "sm" ? 0 : 2.5}
+        />
+        <AnimatedText
+          element="span"
+          text="blockchain"
+          artificialDelay={twBreakpoint === "sm" ? 0.85 : 3.5}
+        />
       </motion.div>
-    </>
+    </motion.div>
   );
 }

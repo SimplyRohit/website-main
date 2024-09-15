@@ -6,7 +6,7 @@ const fullTwConfig = resolveConfig(tailwindConfig);
 const EMAIL = "hello@looskie.com";
 const GITHUB = "https://github.com/WasATrueWarrior";
 const TWITTER = "https://twitter.com/WasATrueWarrior";
-const LINKEDIN = "https://linkedin.com/in/";
+const LINKEDIN = "https://linkedin.com/in/rohit-64971b260";
 const INSTAGRAM = "https://instagram.com/r0hltt";
 
 const DISCORD_ID = "207204046115831809";

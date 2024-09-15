@@ -1,5 +1,3 @@
-// src/pages/_app.tsx
-
 import Cursor from "@/components/Cursor";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";

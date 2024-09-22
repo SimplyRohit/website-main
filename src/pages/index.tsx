@@ -135,8 +135,8 @@ export default function Home() {
         }}
         animate={animationControls}
       >
-        <AnimatedText element="h1" text="Raw" />
-        <AnimatedText element="h1" className="md:ml-[8rem]" text="hit" />
+        <AnimatedText element="h1" text="Rohit" />
+        {/* <AnimatedText element="h1" className="md:ml-[8rem]" text="" /> */}
 
         <AnimatedText
           element="span"

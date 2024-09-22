@@ -21,7 +21,7 @@ const SOCIAL_ITEMS = [
     platform: "github",
     icon: <GitHubIcon width={30} height={30} className="fill-primary-300" />,
     link: GITHUB,
-    handle: "@WasATrueWarrior",
+    handle: "@SimplyRohit",
   },
   {
     platform: "linkedin",

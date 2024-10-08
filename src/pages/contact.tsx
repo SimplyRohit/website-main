@@ -27,7 +27,7 @@ const SOCIAL_ITEMS = [
     platform: "linkedin",
     icon: <LinkedInIcon width={30} height={30} />,
     link: LINKEDIN,
-    handle: "@rohit-64971b260",
+    handle: "@Simply-Rohit",
   },
   {
     platform: "instagram",
@@ -39,7 +39,7 @@ const SOCIAL_ITEMS = [
     platform: "email",
     icon: <MailIcon width={30} height={30} />,
     link: "mailto:hello@rohitjaatjaat073.com",
-    handle: "hello@rohitjaatjaat073.com",
+    handle: "@rohitjaatjaat073",
   },
 ];
 
@@ -50,13 +50,13 @@ export default function Contact() {
         <AnimatedText element="h1" text="Contact" />
       </div>
 
-      <ul className="flex flex-col gap-6 list-none">
+      <ul className="flex flex-col gap-6 list-none pb-10">
         {SOCIAL_ITEMS.map((item) => (
           <li key={item.platform} className="flex gap-4 items-center">
             {item.icon}
             <a
               href={item.link}
-              className="text-xl"
+              className="text-xl "  
               target="_blank"
               rel="noreferrer"
             >

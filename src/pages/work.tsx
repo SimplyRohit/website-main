@@ -6,16 +6,17 @@ import { WORK } from "../utils/constants";
 export default function Work() {
   return (
     <AnimatedPage>
-      <div className="title__wrapper">
+      <div className="title__wrapper md:pl-0 pl-5 ">
         <AnimatedText element="h1" text="Work" />
       </div>
-      <div className="flex flex-col gap-[100px]">
+      <div className="flex flex-col gap-[100px] pb-10 md:pl-0 pl-5 ">
+
         {WORK.map((work, index) => (
           <div
             key={work.project}
             className="relative flex flex-col max-w-[700px]"
           >
-            <span className="absolute -left-[45px] -top-[30px] text-5xl text-primary-100 opacity-10">
+            <span className="absolute md:-left-[45px] -left-[40px]  -top-[30px] text-5xl text-primary-100 opacity-10">
               {index.toString().padStart(2, "0")}
             </span>
             <h2 className="text-5xl font-bold text-primary-100 mb-3">

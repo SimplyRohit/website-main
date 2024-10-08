@@ -141,12 +141,12 @@ export default function Home() {
         <AnimatedText
           element="span"
           text="Full Stack Developer"
-          artificialDelay={twBreakpoint === "sm" ? 0 : 2.5}
+          artificialDelay={twBreakpoint === "md" ? 0 : 2.5}
         />
         <AnimatedText
           element="span"
           text="blockchain"
-          artificialDelay={twBreakpoint === "sm" ? 0.85 : 3.5}
+          artificialDelay={twBreakpoint === "md" ? 0.85 : 3.5}
         />
       </motion.div>
     </motion.div>

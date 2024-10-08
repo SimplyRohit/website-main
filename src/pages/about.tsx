@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <AnimatedPage>
+    <AnimatedPage >
       <div className="title__wrapper">
         <AnimatedText element="h1" text="About" />
       </div>
@@ -19,7 +19,7 @@ export default function About() {
       </p>
 
       <br />
-      <p>
+      <p className="pb-10">
         Currently working on{" "}
         <Link href="" target="_blank">
           ....

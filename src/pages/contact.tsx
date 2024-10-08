@@ -56,7 +56,7 @@ export default function Contact() {
             {item.icon}
             <a
               href={item.link}
-              className="text-xl"  
+              className="text-xl"
               target="_blank"
               rel="noreferrer"
             >

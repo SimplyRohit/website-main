@@ -13,6 +13,12 @@ const DISCORD_ID = "207204046115831809";
 
 const WORK = [
   {
+    project: "Vstack",
+    link: "https://vstackkk.vercel.app/",
+    description:
+      "VStack is  AI-powered website generator that utilizes the power of Gemini AI to create stunning websites effortlessly.",
+  },
+  {
     project: "WebCinema",
     link: "https://webcinema.vercel.app/",
     description:

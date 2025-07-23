@@ -13,22 +13,33 @@ const DISCORD_ID = "207204046115831809";
 
 const WORK = [
   {
+    project: "Github",
+    link: "https://github.com/SimplyRohit",
+    description: "My open-source projects. Check them out!",
+  },
+  {
+    project: "Deprobo",
+    link: "https://deprobo-client.vercel.app/",
+    description:
+      "Deprobo is a decentralized prediction market DApp built with Next.js, Solana Web3, NeonDB, and Drizzle. Users can bet with YES/NO predictions and win SOL.",
+  },
+  {
     project: "Vstack",
     link: "https://vstackkk.vercel.app/",
     description:
       "VStack is  AI-powered website generator that utilizes the power of Gemini AI to create stunning websites effortlessly.",
   },
   {
-    project: "WebCinema",
-    link: "https://webcinema.vercel.app/",
-    description:
-      "WebCinema is a web app that allows you to watch movies on the web.",
-  },
-  {
     project: "Cloud-IDE",
     link: "https://github.com/SimplyRohit/Cloud-IDE",
     description:
       "Cloud IDE is a web app that allows you to write code and share it with others.",
+  },
+  {
+    project: "WebCinema",
+    link: "https://webcinema.vercel.app/",
+    description:
+      "WebCinema is a web app that allows you to watch movies on the web.",
   },
 ];
 

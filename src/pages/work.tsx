@@ -10,7 +10,6 @@ export default function Work() {
         <AnimatedText element="h1" text="Work" />
       </div>
       <div className="flex flex-col gap-[100px] pb-10 md:pl-0 pl-5 ">
-
         {WORK.map((work, index) => (
           <div
             key={work.project}

@@ -5,4 +5,4 @@ class DiscordUser {
   ) {}
 }
 
-export let user = new DiscordUser("", "");
+export const user = new DiscordUser("", "");

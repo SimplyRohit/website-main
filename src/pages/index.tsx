@@ -126,7 +126,12 @@ export default function Home() {
           }
         />
       ))}
-
+      <a
+        href="/rohit.pdf"
+        className="absolute  cursor-pointer right-40  top-[90px] text-5xl "
+      >
+        CV
+      </a>
       <motion.div
         className="relative title__wrapper md:z-[51]"
         style={{

@@ -18,10 +18,16 @@ const WORK = [
     description: "My open-source projects. Check them out!",
   },
   {
-    project: "Deprobo",
+    project: "Deprobo-client",
     link: "https://deprobo-client.vercel.app/",
     description:
       "Deprobo is a decentralized prediction market DApp built with Next.js, Solana Web3, NeonDB, and Drizzle. Users can bet with YES/NO predictions and win SOL.",
+  },
+  {
+    project: "Deprobo-contract",
+    link: "https://deprobo-client.vercel.app/",
+    description:
+      "Smart contracts for Deprobo, written in Anchor (Rust) on Solana. These contracts handle market creation, user bets, resolution logic, and secure SOL payouts.",
   },
   {
     project: "Vstack",

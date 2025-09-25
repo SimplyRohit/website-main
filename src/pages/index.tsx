@@ -128,7 +128,7 @@ export default function Home() {
       ))}
       <a
         href="/rohit.pdf"
-        className="absolute  cursor-pointer right-40  top-[90px] text-5xl "
+        className="absolute text-3xl  cursor-pointer lg:right-[80px] right-[40px] top-[35px] md:top-[70px] lg:top-[80px] md:text-5xl "
       >
         CV
       </a>

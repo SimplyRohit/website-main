@@ -34,7 +34,7 @@ function Navbar() {
         </Link>
       </h2>
       <motion.ul
-        className="flex items-center justify-between h-full list-none pl-default-window-sm sm:pl-default-window border-l border-primary-700 md:gap-[80px] gap-[20px] w-full"
+        className="flex items-center justify-between h-full list-none  pl-default-window-sm sm:pl-default-window border-l border-primary-700 md:gap-[80px] gap-[20px] w-full"
         animate="animate"
         initial="initial"
         transition={TRANSITION}
@@ -42,7 +42,7 @@ function Navbar() {
         {LINKS.map((link) => (
           <motion.li
             key={link}
-            className="text-2xl"
+            className="md:text-2xl text-xl"
             variants={LINK_ANIMATION}
             transition={{
               // Wait for index page animation to finish

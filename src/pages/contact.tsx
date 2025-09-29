@@ -38,8 +38,8 @@ const SOCIAL_ITEMS = [
   {
     platform: "email",
     icon: <MailIcon width={30} height={30} />,
-    link: "mailto:hello@rohitjaatjaat073.com",
-    handle: "@rohitjaatjaat073",
+    link: "mailto:hello@simplyrohit.tech@gmail.com",
+    handle: "@simplyrohit.tech@gmail.com",
   },
 ];
 

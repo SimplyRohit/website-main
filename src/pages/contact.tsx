@@ -49,7 +49,6 @@ export default function Contact() {
       <div className="title__wrapper">
         <AnimatedText element="h1" text="Contact" />
       </div>
-
       <ul className="flex flex-col gap-6 list-none pb-10">
         {SOCIAL_ITEMS.map((item) => (
           <li key={item.platform} className="flex gap-4 items-center">

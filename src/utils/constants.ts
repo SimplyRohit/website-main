@@ -3,9 +3,9 @@ import tailwindConfig from "../../tailwind.config";
 
 const fullTwConfig = resolveConfig(tailwindConfig);
 
-const EMAIL = "hello@looskie.com";
+const EMAIL = "hello@SimplyRohit.tech.com";
 const GITHUB = "https://github.com/SimplyRohit";
-const TWITTER = "https://twitter.com/WasATrueWarrior";
+const TWITTER = "https://twitter.com/Simply0Rohit";
 const LINKEDIN = "https://linkedin.com/in/Simply-Rohit";
 const INSTAGRAM = "https://instagram.com/r0hltt";
 
@@ -17,6 +17,19 @@ const WORK = [
     link: "https://github.com/SimplyRohit",
     description: "My open-source projects. Check them out!",
   },
+  {
+    project: "SimStudioAI",
+    link: "https://github.com/simstudioai/sim",
+    description:
+      "Contributed to the SimStudioAI/sim open-source project, extending Telegram workflow blocks and developing modular tool components to improve automation and communication flows.",
+  },
+  {
+    project: "Oath",
+    link: "https://github.com/SimplyRohit",
+    description:
+      "Currently working on Oath — a React Native app designed to help users overcome bad habits through guided challenges, progress tracking, and personalized motivation. Built with Expo and OAuth authentication for a seamless and secure experience.",
+  },
+
   {
     project: "Deprobo-client",
     link: "https://deprobo-client.vercel.app/",

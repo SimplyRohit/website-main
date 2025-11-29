@@ -10,18 +10,19 @@ export default function About() {
         <AnimatedText element="h1" text="About" />
       </div>
       <p>
-        Hey there, I’m Rohit! 20 year old full-Stack developer and freelancer
-        based in India. I’ve taken coding seriously since 2024 I’ve grown a
-        knack for giving back to community. I like contributing to 🤓 open
-        source as a web developer, which is probably the reason why you’ve ended
-        up here. Currently struggling with nothing actually.
+        Hey there, I’m Rohit! 21 year old FullStack || Blockchain developer and
+        freelancer. I’ve taken coding seriously since 2021 , and have been
+        freelancing since 2022 . Recently, however, I’ve grown a knack for
+        giving back to community. I like contributing to 🤓 open source as a web
+        developer, which is probably the reason why you’ve ended up here.
+        Currently struggling with blockchain and rust.
       </p>
 
       <br />
       <p className="pb-10">
         Currently working on{" "}
         <Link href="" target="_blank">
-          .... (Secret Project)
+          ....
         </Link>
       </p>
     </AnimatedPage>
